@@ -1,0 +1,47 @@
+body {
+    background-color: transparent;
+}
+
+html {
+    font-size: 12px;
+}
+
+.font{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    overflow: hidden;
+    padding: 10px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.accountInfo {
+    margin-right: 10px;
+}
+
+.accountInfo .q {
+    padding-bottom: 4px;
+}
+
+.accountInfo .u {
+    padding-top: 4px;
+}
+
+.signin-button {
+    padding: 0 20px;
+    font-size: 14px;
+    height: 34px;
+
+}
+
+.signin-button .sign-in {
+    width: 1em;
+    margin: 2px 4px 0 0;
+}
+
