@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="font">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
         <link rel="stylesheet" href="./css/style.css">
         <title>Intuit</title>
     </head>
+
     <body>
+
         <header>
             <nav class="navbar">
                 <div class="accountInfo">
@@ -20,36 +23,49 @@
             </nav>
         </header>
         
+
         <main>
             <section class="content">
                 <div class="intuit">
                     <img src="./assets/logos/logo-intuit.png" alt="intuit">
                 </div>
+
                 <div class="icons">
                     <ul>
-                        <li><img src="./assets/logos/mint.png" alt="mint">mint</li>
-                        <li><img src="./assets/logos/qb.png" alt=""> quickbooks</li>
-                        <li><img src="./assets/logos/tb.png" alt=""> turbotax</li>
-                    </ul>
+                        <li><img src="./assets/logos/mint.png" alt="mint"><span class="text">mint</span></li>
+                        <li><img src="./assets/logos/qb.png" alt=""><span class="text">quickbooks</span></li>
+                        <li><img src="./assets/logos/tb.png" alt=""><span class="text">turbotax</span></li>
+                    </ul>    
                 </div>
 
                 
                 <form action="#" method="POST">
                     <h6>Create an Intuit account</h6>
-                    <h1>One account for everything Intuit, including Mint.</h1>
-                    <a href="#">Learn more</a>
-                    <h1>Email address</h1>
-                    <input type="email" name="email">
-                    <h1>Phone (recommended)</h1>
-                    <input type="number" name="number">
-                    <h1>Password</h1>
-                    <input type="text" name="" id="">
+
+                    <div class="acct">
+                        <p>One account for everything Intuit, including Mint.</p> 
+                        <a href="#">Learn more</a>
+                        <p>Already have an account?<a href="">Sign in</a></p> 
+                    </div>
+                    
+                    <div class="label-grp">
+                        <label for="email" class="label">Email address</label>
+                        <input type="email" name="email" id="email" value=""/>
+
+                        <label for="number" class="label">Phone (recommended)</label> 
+                        <input type="number" name="number" value="" id="number"/>
+                        <p>Standard call, messaging or data rates may apply.</p>
+
+                        <label for="password" class="label">Password</label>  
+                        <input type="text" name="" id="password">
+                    </div>
+                   
                     <button>Create Account</button>
-                    <p>By clicking Create account, you agree to our <br>
-                        Terms and have read and acknowledge our <a href="">Privacy <br> Statement</a> .</p>
-                        <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>  and <a href="">Terms of Use</a> .</p>
 
-
+                    <div>
+                        <p><i>By clicking Create account, you agree to our Terms and have read and acknowledge our <a href="">Privacy Statement</a></i></p>
+                        <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>  and <a href="">Terms of Use</a></p>
+                    </div>
 
                 </form>
 

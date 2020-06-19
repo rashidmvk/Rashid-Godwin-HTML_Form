@@ -1,5 +1,5 @@
 body {
-    background-color: transparent;
+    background-color: #ECEEF1;
 }
 
 html {
@@ -51,7 +51,7 @@ header {
 .content{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 380px;
     margin: auto;
     text-align: center;
 }
@@ -61,16 +61,59 @@ header {
     margin: 20px;
 }
 
+.icons{
+    margin-bottom: 20px;
+}
+
 .icons ul li {
-    display: inline-block;
+    display: inline;
+    vertical-align: middle;
+    list-style-type: none;
 }
 
 .icons ul li img {
-    width: 33px;
+    width: 20px;
 }
-.icons ul li text {
-    margin: auto;
+
+.icons ul li {
+    font-size: 1.5rem;   
 }
+
+.icons ul {
+    
+}
+
+form{
+    background-color: #fff;
+    padding: 30px;
+}
+
+form h6 {
+   font-size: 2rem; 
+}
+
+form h1 {
+    font-size: 1.166rem;
+}
+
+.label {
+    display: block;
+}
+
+.label-grp{
+    text-align: start;
+}
+
+.label-grp input{
+    width: 100%;
+}
+
+
+form button{
+    display: block;
+    width: 100%;
+}
+
 
 
 
