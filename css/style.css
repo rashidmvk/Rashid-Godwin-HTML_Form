@@ -57,7 +57,8 @@ header {
 }
 
 .intuit img {
-    width: 118px;
+    width: 160px;
+    margin: 20px;
 }
 
 .icons ul li {
@@ -65,7 +66,10 @@ header {
 }
 
 .icons ul li img {
-    width: 23px;
+    width: 33px;
+}
+.icons ul li text {
+    margin: auto;
 }
 
 
