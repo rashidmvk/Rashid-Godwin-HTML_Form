@@ -33,6 +33,11 @@ header {
     padding-top: 4px;
 }
 
+.accountInfo a:link{
+    color: #3B8DCE;
+    text-decoration: none;
+}
+
 .signin-button {
     padding: 0 20px;
     font-size: 14px;
@@ -199,6 +204,9 @@ main {
     padding-bottom: 20px;
 }
 
+.footer-links, .footer-para p{
+    padding-bottom: 10px;
+}
 
 
 
