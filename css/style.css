@@ -84,8 +84,16 @@ header {
 }
 
 form{
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     padding: 30px;
+    /* border: 1px 1px 0 1px;
+    border: 1px solid black; */
+}
+
+.contain{
+    border: 1px solid #C1C5C8;
 }
 
 form h6 {
@@ -104,8 +112,18 @@ form h1 {
     text-align: start;
 }
 
-.label-grp input{
+/* .label-grp {
     width: 100%;
+} */
+
+input {
+    width: 100%;
+}
+
+form {
+    /* border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000; */
 }
 
 
@@ -114,8 +132,63 @@ form button{
     width: 100%;
 }
 
+.acct{
+    padding-top: 20px;
+    font-size: 1.166rem;
+    padding-bottom: 20px;
+}
 
+.acct a {
+    font-size: 1rem;
+}
 
+.label-grp label{
+    padding-bottom: 10px;
+    font-size: 1.166rem;
+}
+
+.label-grp input{
+    height: 34px;
+}
+
+.msg{
+    width: 100%;
+    height: 20px;
+}
+
+.label-grp p{
+    padding: 5px 0px;
+    font-size: 0.85rem;
+}
+
+.label-grp label[for='password']{
+    padding-top: 30px;
+}
+
+.btn{
+    padding: 6px 1rem;
+    height: 43px;
+    background-color: #0077C5 ;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3%;
+    color: white;
+    font-size: 1.333rem;
+}
+
+.create{
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.create p a {
+    word-spacing: 10%;
+}
+
+.one{
+    font-size: 0.85rem;
+    padding: 20px;
+}
 
 
 
