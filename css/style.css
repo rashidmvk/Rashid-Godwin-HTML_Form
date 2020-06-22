@@ -189,9 +189,15 @@ form button{
     font-size: 0.85rem;
     padding: 20px;
 }
-
-
-
+footer {
+    text-align: center;
+}
+.footer-links a {
+    margin-right: 10px;
+}
+main {
+    padding-bottom: 20px;
+}
 
 
 
