@@ -3,16 +3,16 @@ body {
 }
 
 html {
-    font-size: 12px;
+    font-size: 75%;
 }
 
 .font{
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "AvenirNext", 'Avenir', "Helvetica Neue", 'Helvetica', 'Arial', 'sans-serif';
 }
 
 header {
     overflow: hidden;
-    padding: 10px 30px;
+    padding: 0.66rem 1.8%;
 }
 
 .navbar {
@@ -22,15 +22,15 @@ header {
 }
 
 .accountInfo {
-    margin-right: 10px;
+    margin-right: 0.833rem;
 }
 
 .accountInfo .q {
-    padding-bottom: 4px;
+    padding-bottom: 0.333rem;
 }
 
 .accountInfo .u {
-    padding-top: 4px;
+    padding-top: 0.333rem;
 }
 
 .accountInfo a:link{
@@ -39,9 +39,9 @@ header {
 }
 
 .signin-button {
-    padding: 0 20px;
-    font-size: 14px;
-    height: 34px;
+    padding: 0 1.666rem;
+    font-size: 1.166rem;
+    height: 2.833rem;
     color: white;
     background-color: #0077C5;
     border: 1px solid black;
@@ -57,12 +57,13 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 380px;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
 
 .intuit img {
-    width: 160px;
+    width: 120px;
     margin: 20px;
 }
 
@@ -72,29 +73,25 @@ header {
 
 .icons ul li {
     display: inline;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     list-style-type: none;
 }
 
 .icons ul li img {
     width: 20px;
+    padding-top: -10px;
 }
 
 .icons ul li {
     font-size: 1.5rem;   
 }
 
-.icons ul {
-    
-}
 
 form{
     display: flex;
     flex-direction: column;
     background-color: #fff;
     padding: 30px;
-    /* border: 1px 1px 0 1px;
-    border: 1px solid black; */
 }
 
 .contain{
@@ -117,18 +114,9 @@ form h1 {
     text-align: start;
 }
 
-/* .label-grp {
-    width: 100%;
-} */
 
 input {
     width: 100%;
-}
-
-form {
-    /* border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000; */
 }
 
 
@@ -211,123 +199,4 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 
