@@ -18,7 +18,7 @@
                     <a href="#" class="u">I forgot my User ID or Password</a>
                 </div>
                 <div class="signIn">
-                    <button class="signin-button font"><img src="./assets/logos/password.png" class="sign-in" alt="">Sign In</button>
+                    <button class="signin-button font"><img src="./assets/logos/lock.png" class="sign-in" alt="sign in">Sign In</button>
                 </div>
             </nav>
         </header>
@@ -33,8 +33,8 @@
                 <div class="icons">
                     <ul>
                         <li><img src="./assets/logos/mint.png" alt="mint"><span class="text">mint</span></li>
-                        <li><img src="./assets/logos/qb.png" alt=""><span class="text">quickbooks</span></li>
-                        <li><img src="./assets/logos/tb.png" alt=""><span class="text">turbotax</span></li>
+                        <li class="quick"><img src="./assets/logos/qb.png" alt="quickbooks"><span class="text">quickbooks</span></li>
+                        <li><img src="./assets/logos/tb.png" alt="turbotax"><span class="text">turbotax</span></li>
                     </ul>    
                 </div>
 
@@ -52,7 +52,7 @@
                             <input type="email" name="email" id="email" value=""/>
     
                             <div class="msg">
-    
+                                <!-- validation alert box -->
                             </div>
     
                             <label for="number" class="label">Phone (recommended)</label> 
@@ -60,37 +60,29 @@
                             <p>Standard call, messaging or data rates may apply.</p>
     
                             <label for="password" class="label">Password</label>  
-                            <input type="text" name="" id="password">
+                            <input type="text" name="password" id="password" value="">
     
                             <div class="msg">
-    
+                                <!-- validation alert box -->
                             </div>
     
                         </div>
                        
-                        <button class="btn">Create Account</button>
+                        <button class="btn"><img src="./assets/logos/lock.png" class="sign-in" alt="create account">Create Account</button>
     
                         <div class="create">
-                            <p><a>By clicking Create account, you agree to our Terms and have read and acknowledge our <a href="">Privacy Statement</a></p>
+                            <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a></p>
                         </div>
     
                     </form>
-    
-    
                     <div class="one">
-                        <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>and<a href="">Terms of Use</a></p>
+                        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
                     </div>
-                </div>
-                
-
-                
+                </div>                
             </section>
-            
-            
         </main>
 
         <footer>
-
             <div class="footer-links">
                 <a href="#">Legal</a>
                 <a href="#">Privacy</a>
@@ -99,11 +91,13 @@
 
             <div class="footer-para">
                 <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-
                 <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>     
             </div>
-
         </footer>
+
+       
+
     </body>
+
 </html>
 ￼

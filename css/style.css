@@ -1,5 +1,6 @@
 body {
     background-color: #ECEEF1;
+    position: relative;
 }
 
 html {
@@ -7,7 +8,7 @@ html {
 }
 
 .font{
-    font-family: "AvenirNext", 'Avenir', "Helvetica Neue", 'Helvetica', 'Arial', 'sans-serif';
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
 }
 
 .accountInfo {
-    margin-right: 0.833rem;
+    margin-right: 0.9%;
 }
 
 .accountInfo .q {
@@ -49,49 +50,61 @@ header {
 }
 
 .signin-button .sign-in {
-    width: 1em;
-    margin: 0 4px 0 0;
+    width: 0.9em;
+    margin: 0 0.335rem 0 0;
+}
+
+.sign-in{
+    width: 0.8em;
+    margin: 0 0.5rem 0 0;
+    padding-top: 0.3rem;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    max-width: 380px;
+    max-width: 31.67rem;
     width: 100%;
     margin: auto;
     text-align: center;
 }
 
 .intuit img {
-    width: 120px;
-    margin: 20px;
+    width: 10rem;
+    margin: 1.67rem;
 }
 
 .icons{
-    margin-bottom: 20px;
+    margin-bottom: 1.67rem;
+    cursor: pointer;
 }
 
 .icons ul li {
-    display: inline;
-    /* vertical-align: middle; */
+    display: inline-flex;
     list-style-type: none;
 }
 
 .icons ul li img {
-    width: 20px;
-    padding-top: -10px;
+    width: 1.67rem;
 }
 
 .icons ul li {
     font-size: 1.5rem;   
 }
 
+.quick {
+    margin: 0 0.5rem;
+}
 
-form{
-    display: flex;
-    flex-direction: column;
+.text{
+    padding-left: 0.5rem;
+    color: #8A8C90;
+}
+
+form {
     background-color: #fff;
-    padding: 30px;
+    padding: 2.5rem;
+    color: #4C4C57;
 }
 
 .contain{
@@ -99,7 +112,7 @@ form{
 }
 
 form h6 {
-   font-size: 2rem; 
+   font-size: 2rem;
 }
 
 form h1 {
@@ -113,12 +126,6 @@ form h1 {
 .label-grp{
     text-align: start;
 }
-
-
-input {
-    width: 100%;
-}
-
 
 form button{
     display: block;
@@ -135,34 +142,40 @@ form button{
     font-size: 1rem;
 }
 
+.acct a:link{
+    color: #3B8DCE;
+    text-decoration: none;
+}
+
 .label-grp label{
-    padding-bottom: 10px;
+    padding-bottom: 0.834rem;
     font-size: 1.166rem;
 }
 
 .label-grp input{
-    height: 34px;
+    height: 2.5rem;
+    width: 97.5%;
 }
 
 .msg{
     width: 100%;
-    height: 20px;
+    height: 1.67rem;
 }
 
 .label-grp p{
-    padding: 5px 0px;
+    padding: 0.416rem 0;
     font-size: 0.85rem;
 }
 
 .label-grp label[for='password']{
-    padding-top: 30px;
+    padding-top: 2.5rem;
 }
 
 .btn{
-    padding: 6px 1rem;
-    height: 43px;
+    padding: 0.5rem 1rem;
+    height: 3.5834rem;
     background-color: #0077C5 ;
-    margin-bottom: 30px;
+    margin-bottom: 2.5rem;
     border: none;
     border-radius: 3%;
     color: white;
@@ -171,32 +184,54 @@ form button{
 
 .create{
     font-style: italic;
-    padding-bottom: 15px;
+    padding-bottom: 1.25rem;
+    line-height: 2rem;
+    width: 85%;
+    margin: auto;
 }
 
 .create p a {
     word-spacing: 10%;
+    color: #0077C5;
+    text-decoration: none;
 }
 
 .one{
     font-size: 0.85rem;
-    padding: 20px;
+    padding: 1.67rem;
+    color: #4C4C57;
 }
+
+.one a:link{
+    color: #0077C5;
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
+    color: #4C4C57;
 }
+
 .footer-links a {
-    margin-right: 10px;
+    margin-right: 0.834rem;
+    text-decoration: none;
 }
+
+.footer-links a:link{
+    color: #4C4C57;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
 main {
-    padding-bottom: 20px;
+    padding-bottom: 1.67rem;
 }
 
 .footer-links, .footer-para p{
-    padding-bottom: 10px;
+    padding-bottom: 0.4167rem;
 }
-
-
 
 
 
