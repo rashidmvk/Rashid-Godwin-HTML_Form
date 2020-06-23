@@ -234,4 +234,13 @@ main {
 }
 
 
-
+.privacy{
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    padding: 1rem;
+    background-color: #6B6C72;
+    color: white;
+    border: none;
+    border-radius: 3%;
+}
