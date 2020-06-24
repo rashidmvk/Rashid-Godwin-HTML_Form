@@ -1,6 +1,6 @@
 # Rashid-Godwin-HTML_Form
 
-This is a project which focuses on clonig the account creation page of the so called webite "https://www.intuit.com".
+This is a project which focuses on clonig the account creation page of the so called website "https://www.intuit.com".
 
 # Mockup
 [link to clone](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS)
@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://rashidmvk.github.io/Rashid-Godwin-HTML_Form/)
 
 
 ## Getting Started
