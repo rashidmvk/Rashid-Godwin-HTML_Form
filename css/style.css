@@ -127,6 +127,14 @@ form h1 {
     text-align: start;
 }
 
+.placeicon{
+    font-family: 'fontawesome';
+}
+
+.label-grp input[placeholder='&#xf09c;']{
+    float: right;
+}
+
 form button{
     display: block;
     width: 100%;
@@ -191,7 +199,6 @@ form button{
 }
 
 .create p a {
-    word-spacing: 10%;
     color: #0077C5;
     text-decoration: none;
 }
