@@ -1,5 +1,5 @@
 body {
-	background-color: #eceef1;
+  background-color: #eceef1;
   position: relative;
 }
 
@@ -20,47 +20,6 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.acct {
-	padding-top: 20px;
-	font-size: 1.166rem;
-	padding-bottom: 20px;
-}
-
-footer {
-	text-align: center;
-	color: #4c4c57;
-}
-
-.footer-links a {
-	margin-right: 0.834rem;
-	text-decoration: none;
-}
-
-.footer-links a:link {
-	color: #4c4c57;
-}
-
-.footer-links a:hover {
-	text-decoration: underline;
-}
-
-.acct a {
-	font-size: 1rem;
-}
-
-.create {
-	font-style: italic;
-  padding-bottom: 1.25rem;
-	line-height: 2rem;
-	width: 85%;
-	margin: auto;
-}
-
-.acct a:link {
-	color: #3b8dce;
-	text-decoration: none;
 }
 
 .accountInfo {
@@ -96,9 +55,8 @@ footer {
 	padding-top: 0.3rem;
 }
 
-.signin-button .sign-in {
-  width: 0.9em;
-  margin: 0 0.335rem 0 0;
+main {
+  padding-bottom: 1.67rem;
 }
 
 .content {
@@ -122,21 +80,25 @@ footer {
 
 .icons ul li {
 	display: inline-flex;
-	list-style-type: none;
+  list-style-type: none;
+  font-size: 1.5rem;
 }
 
 .icons ul li img {
 	width: 1.67rem;
-	font-size: 1.5rem; 
+}
+
+.text {
+	padding-left: 0.5rem;
+	color: #8a8c90;
 }
 
 .quick {
 	margin: 0 0.5rem;
 }
 
-.text {
-	padding-left: 0.5rem;
-	color: #8a8c90;
+.contain {
+	border: 1px solid #c1c5c8;
 }
 
 form {
@@ -145,99 +107,131 @@ form {
 	color: #4c4c57;
 }
 
-.contain {
-	border: 1px solid #c1c5c8;
-}
-
 form h6 {
 	font-size: 2rem;
 }
 
 form h1 {
-	font-size: 1.166rem;
-}
-
-.label {
-	display: block;
-}
-
-.label-grp {
-    text-align: start;
+  font-size: 1.166rem;
 }
 
 form button {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
+}
+
+.acct {
+	padding-top: 20px;
+	font-size: 1.166rem;
+	padding-bottom: 20px;
+}
+
+.acct a {
+	font-size: 1rem;
+}
+
+.acct a:link {
+	color: #3b8dce;
+	text-decoration: none;
+}
+
+
+.label-grp {
+  text-align: start;
+}
+
+.label {
+  display: block;
 }
 
 .label-grp label {
-	padding-bottom: 0.834rem;
-	font-size: 1.166rem;
+  padding-bottom: 0.834rem;
+  font-size: 1.166rem;
 }
 
 .label-grp input {
-	height: 2.5rem;
-	width: 97.5%;
-}
-
-.msg {
-	width: 100%;
-	height: 1.67rem;
+  height: 2.5rem;
+  width: 97.5%;
 }
 
 .label-grp p {
-	padding: 0.416rem 0;
-	font-size: 0.85rem;
+  padding: 0.416rem 0;
+  font-size: 0.85rem;
 }
 
 .label-grp label[for='password'] {
-	padding-top: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.msg {
+  width: 100%;
+  height: 1.67rem;
 }
 
 .btn {
-	padding: 0.5rem 1rem;
-	height: 3.5834rem;
-	background-color: #0077c5 ;
-	margin-bottom: 2.5rem;
-	border: none;
-	border-radius: 3%;
-	color: white;
-	font-size: 1.333rem;
+  padding: 0.5rem 1rem;
+  height: 3.5834rem;
+  background-color: #0077c5 ;
+  margin-bottom: 2.5rem;
+  border: none;
+  border-radius: 3%;
+  color: white;
+  font-size: 1.333rem;
+}
+
+.create {
+	font-style: italic;
+  padding-bottom: 1.25rem;
+	line-height: 2rem;
+	width: 85%;
+	margin: auto;
 }
 
 .create p a {
-	color: #0077c5;
-	text-decoration: none;
+  color: #0077c5;
+  text-decoration: none;
 }
 
 .one {
-	font-size: 0.85rem;
-	padding: 1.67rem;
-	color: #4c4c57;
+  font-size: 0.85rem;
+  padding: 1.67rem;
+  color: #4c4c57;
 }
 
 .one a:link {
-	color: #0077c5;
-	text-decoration: none;
+  color: #0077c5;
+  text-decoration: none;
 }
 
+footer {
+	text-align: center;
+	color: #4c4c57;
+}
 
-main {
-	padding-bottom: 1.67rem;
+.footer-links a {
+  margin-right: 0.834rem;
+  text-decoration: none;
+}
+
+.footer-links a:link {
+	color: #4c4c57;
+}
+
+.footer-links a:hover {
+	text-decoration: underline;
 }
 
 .footer-links, .footer-para p {
-	padding-bottom: 0.4167rem;
+  padding-bottom: 0.4167rem;
 }
 
-
 .privacy {
-	position: fixed;
-	bottom: 0;
-	right: 5%;
-	padding: 1rem;
-	background-color: #6b6c72;
-	color: white;
-	border: none;
-	border-radius: 3%;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 1rem;
+  background-color: #6b6c72;
+  color: white;
+  border: none;
+  border-radius: 3%;
 }

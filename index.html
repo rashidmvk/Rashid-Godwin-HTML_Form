@@ -1,104 +1,102 @@
 <!DOCTYPE html>
 <html lang="en" class="font">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/intuitreset.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <title>Intuit</title>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/intuitreset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Intuit</title>
+  </head>
 
-    <body>
+  <body>
 
-        <header>
-            <nav class="navbar">
-                <div class="accountInfo">
-                    <p class="q">Already have an Intuit account?<p>
-                    <a href="#" class="u">I forgot my User ID or Password</a>
+    <header>
+      <nav class="navbar">
+        <div class="accountInfo">
+          <p class="q">Already have an Intuit account?<p>
+          <a href="#" class="u">I forgot my User ID or Password</a>
+        </div>
+        <div class="signIn">
+          <button class="signin-button font" type="submit"><img src="./assets/logos/lock.png" class="sign-in" alt="sign in">Sign In</button>
+        </div>
+      </nav>
+    </header>
+      
+
+    <main>
+      <section class="content">
+        <div class="intuit">
+            <img src="./assets/logos/logo-intuit.png" alt="intuit">
+        </div>
+
+        <div class="icons">
+            <ul>
+                <li><img src="./assets/logos/mint.png" alt="mint"><span class="text">mint</span></li>
+                <li class="quick"><img src="./assets/logos/qb.png" alt="quickbooks"><span class="text">quickbooks</span></li>
+                <li><img src="./assets/logos/tb.png" alt="turbotax"><span class="text">turbotax</span></li>
+            </ul>    
+        </div>
+
+        <div class="contain">
+            <form action="#" method="POST">
+
+                <h6>Create an Intuit account</h6>
+
+                <div class="acct">
+                  <p>One account for everything Intuit, including Mint.</p> 
+                  <a href="#">Learn more</a>
                 </div>
-                <div class="signIn">
-                    <button class="signin-button font" type="submit"><img src="./assets/logos/lock.png" class="sign-in" alt="sign in">Sign In</button>
+                
+                <div class="label-grp">
+                  <label for="email" class="label">Email address</label>
+                  <input type="email" name="email" id="email" value=""/>
+
+                  <div class="msg">
+                    <!-- validation alert box -->
+                  </div>
+
+                  <label for="tel" class="label">Phone (recommended)</label> 
+                  <input type="tel" name="tel" value="" id="tel"/>
+                  <p>Standard call, messaging or data rates may apply.</p>
+
+                  <label for="password" class="label">Password</label>  
+                  <input type="password" name="password" id="password" value="" class="placeicon">
+
+                  <div class="msg">
+                    <!-- validation alert box -->
+                  </div>
                 </div>
-            </nav>
-        </header>
-        
+                
+                <button class="btn" type="submit"><img src="./assets/logos/lock.png" class="sign-in" alt="create account">Create Account</button>
 
-        <main>
-            <section class="content">
-                <div class="intuit">
-                    <img src="./assets/logos/logo-intuit.png" alt="intuit">
+                <div class="create">
+                  <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a></p>
                 </div>
 
-                <div class="icons">
-                    <ul>
-                        <li><img src="./assets/logos/mint.png" alt="mint"><span class="text">mint</span></li>
-                        <li class="quick"><img src="./assets/logos/qb.png" alt="quickbooks"><span class="text">quickbooks</span></li>
-                        <li><img src="./assets/logos/tb.png" alt="turbotax"><span class="text">turbotax</span></li>
-                    </ul>    
-                </div>
-
-                <div class="contain">
-                    <form action="#" method="POST">
-                        <h6>Create an Intuit account</h6>
-    
-                        <div class="acct">
-                            <p>One account for everything Intuit, including Mint.</p> 
-                            <a href="#">Learn more</a>
-                        </div>
-                        
-                        <div class="label-grp">
-                            <label for="email" class="label">Email address</label>
-                            <input type="email" name="email" id="email" value=""/>
-    
-                            <div class="msg">
-                                <!-- validation alert box -->
-                            </div>
-    
-                            <label for="tel" class="label">Phone (recommended)</label> 
-                            <input type="tel" name="tel" value="" id="tel"/>
-                            <p>Standard call, messaging or data rates may apply.</p>
-    
-                            <label for="password" class="label">Password</label>  
-                            <input type="password" name="password" id="password" value="" class="placeicon">
-    
-                            <div class="msg">
-                                <!-- validation alert box -->
-                            </div>
-    
-                        </div>
-                       
-                        <button class="btn" type="submit"><img src="./assets/logos/lock.png" class="sign-in" alt="create account">Create Account</button>
-    
-                        <div class="create">
-                            <p>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a></p>
-                        </div>
-    
-                    </form>
-                    <div class="one">
-                        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
-                    </div>
-                </div>                
-            </section>
-        </main>
-
-        <footer>
-            <div class="footer-links">
-                <a href="#">Legal</a>
-                <a href="#">Privacy</a>
-                <a href="#">Security</a>
+            </form>
+            <div class="one">
+              <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
             </div>
+        </div>              
+      </section>
+    </main>
 
-            <div class="footer-para">
-                <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-                <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>     
-            </div>
-        </footer>
+    <footer>
+      <div class="footer-links">
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+      </div>
 
-        <button onclick="window.location.href='#'" class="privacy">Privacy Settings</button>
- 
+      <div class="footer-para">
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>     
+      </div>
+    </footer>
 
-    
-    </body>
+    <button onclick="window.location.href='#'" class="privacy">Privacy Settings</button>
+
+  </body>
 </html>
