@@ -186,7 +186,7 @@ form button {
   margin: auto;
 }
 
-.create p a {
+.create .agree .terms {
   color: #0077c5;
   text-decoration: none;
 }
