@@ -130,7 +130,7 @@ form button {
   font-size: 1rem;
 }
 
-.acct a:link {
+.acct .account-link:link {
   color: #3b8dce;
   text-decoration: none;
 }
@@ -207,21 +207,21 @@ footer {
   color: #4c4c57;
 }
 
-.footer-links a {
+.footer-links .footer {
   margin-right: 0.834rem;
   text-decoration: none;
 }
 
-.footer-links a:link {
+.footer-links .footer:link {
   color: #4c4c57;
 }
 
-.footer-links a:hover {
+.footer-links .footer:hover {
   text-decoration: underline;
 }
 
 .footer-links,
-.footer-para p {
+.footer-para .foot {
   padding-bottom: 0.4167rem;
 }
 
