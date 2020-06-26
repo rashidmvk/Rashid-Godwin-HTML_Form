@@ -8,7 +8,8 @@ html {
 }
 
 .font {
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 header {
@@ -50,9 +51,9 @@ header {
 }
 
 .sign-in {
-	width: 0.8em;
-	margin: 0 0.5rem 0 0;
-	padding-top: 0.3rem;
+  width: 0.8em;
+  margin: 0 0.5rem 0 0;
+  padding-top: 0.3rem;
 }
 
 main {
@@ -79,36 +80,36 @@ main {
 }
 
 .icons ul li {
-	display: inline-flex;
+  display: inline-flex;
   list-style-type: none;
   font-size: 1.5rem;
 }
 
 .icons ul li img {
-	width: 1.67rem;
+  width: 1.67rem;
 }
 
 .text {
-	padding-left: 0.5rem;
-	color: #8a8c90;
+  padding-left: 0.5rem;
+  color: #8a8c90;
 }
 
 .quick {
-	margin: 0 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .contain {
-	border: 1px solid #c1c5c8;
+  border: 1px solid #c1c5c8;
 }
 
 form {
-	background-color: #fff;
-	padding: 2.5rem;
-	color: #4c4c57;
+  background-color: #fff;
+  padding: 2.5rem;
+  color: #4c4c57;
 }
 
 form h6 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 form h1 {
@@ -121,20 +122,19 @@ form button {
 }
 
 .acct {
-	padding-top: 20px;
-	font-size: 1.166rem;
-	padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 1.166rem;
+  padding-bottom: 20px;
 }
 
 .acct a {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 .acct a:link {
-	color: #3b8dce;
-	text-decoration: none;
+  color: #3b8dce;
+  text-decoration: none;
 }
-
 
 .label-grp {
   text-align: start;
@@ -159,7 +159,7 @@ form button {
   font-size: 0.85rem;
 }
 
-.label-grp label[for='password'] {
+.label-grp label[for="password"] {
   padding-top: 2.5rem;
 }
 
@@ -171,7 +171,7 @@ form button {
 .btn {
   padding: 0.5rem 1rem;
   height: 3.5834rem;
-  background-color: #0077c5 ;
+  background-color: #0077c5;
   margin-bottom: 2.5rem;
   border: none;
   border-radius: 3%;
@@ -180,11 +180,11 @@ form button {
 }
 
 .create {
-	font-style: italic;
+  font-style: italic;
   padding-bottom: 1.25rem;
-	line-height: 2rem;
-	width: 85%;
-	margin: auto;
+  line-height: 2rem;
+  width: 85%;
+  margin: auto;
 }
 
 .create p a {
@@ -204,8 +204,8 @@ form button {
 }
 
 footer {
-	text-align: center;
-	color: #4c4c57;
+  text-align: center;
+  color: #4c4c57;
 }
 
 .footer-links a {
@@ -214,14 +214,15 @@ footer {
 }
 
 .footer-links a:link {
-	color: #4c4c57;
+  color: #4c4c57;
 }
 
 .footer-links a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-.footer-links, .footer-para p {
+.footer-links,
+.footer-para p {
   padding-bottom: 0.4167rem;
 }
 
