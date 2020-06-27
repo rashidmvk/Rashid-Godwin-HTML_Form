@@ -1,0 +1,255 @@
+/*** Project Meta ***/
+
+/* line - 15 general */
+
+/* line - 28 header */
+
+/* line - 76 main content */
+
+/* line - 225 footer */
+
+/** general **/
+
+body {
+  background-color: #eceef1;
+  position: relative;
+}
+
+html {
+  font-size: 75%;
+}
+
+.font {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/** header **/
+
+header {
+  overflow: hidden;
+  padding: 0.66rem 1.8%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.accountInfo {
+  margin-right: 0.9%;
+}
+
+.accountInfo .q {
+  padding-bottom: 0.333rem;
+}
+
+.accountInfo .u {
+  padding-top: 0.333rem;
+}
+
+.accountInfo a:link {
+  color: #3b8dce;
+  text-decoration: none;
+}
+
+.signin-button {
+  padding: 0 1.666rem;
+  font-size: 1.166rem;
+  height: 2.833rem;
+  color: white;
+  background-color: #0077c5;
+  border: 1px solid black;
+  border-radius: 7%;
+}
+
+.sign-in {
+  width: 0.8em;
+  margin: 0 0.5rem 0 0;
+  padding-top: 0.3rem;
+}
+
+/** main content **/
+
+main {
+  padding-bottom: 1.67rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 31.67rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.intuit-image {
+  width: 10rem;
+  margin: 1.67rem;
+}
+
+.icons {
+  margin-bottom: 1.67rem;
+  cursor: pointer;
+}
+
+.icons ul li {
+  display: inline-flex;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.icons ul li img {
+  width: 1.67rem;
+}
+
+.text {
+  padding-left: 0.5rem;
+  color: #8a8c90;
+}
+
+.quick {
+  margin: 0 0.5rem;
+}
+
+.contain {
+  border: 1px solid #c1c5c8;
+}
+
+form {
+  background-color: #fff;
+  padding: 2.5rem;
+  color: #4c4c57;
+}
+
+form h6 {
+  font-size: 2rem;
+}
+
+form h1 {
+  font-size: 1.166rem;
+}
+
+form button {
+  display: block;
+  width: 100%;
+}
+
+.acct {
+  padding-top: 20px;
+  font-size: 1.166rem;
+  padding-bottom: 20px;
+}
+
+.account-link {
+  font-size: 1rem;
+}
+
+.acct .account-link:link {
+  color: #3b8dce;
+  text-decoration: none;
+}
+
+.label-grp {
+  text-align: start;
+}
+
+.label {
+  display: block;
+}
+
+.label-grp label {
+  padding-bottom: 0.834rem;
+  font-size: 1.166rem;
+}
+
+.label-grp input {
+  height: 2.5rem;
+  width: 97.5%;
+}
+
+.label-grp p {
+  padding: 0.416rem 0;
+  font-size: 0.85rem;
+}
+
+.label-grp label[for="password"] {
+  padding-top: 2.5rem;
+}
+
+.msg {
+  width: 100%;
+  height: 1.67rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  height: 3.5834rem;
+  background-color: #0077c5;
+  margin-bottom: 2.5rem;
+  border: none;
+  border-radius: 3%;
+  color: white;
+  font-size: 1.333rem;
+}
+
+.create {
+  font-style: italic;
+  padding-bottom: 1.25rem;
+  line-height: 2rem;
+  width: 85%;
+  margin: auto;
+}
+
+.create .agree .terms {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.one {
+  font-size: 0.85rem;
+  padding: 1.67rem;
+  color: #4c4c57;
+}
+
+.one a:link {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+/** footer **/
+
+footer {
+  text-align: center;
+  color: #4c4c57;
+}
+
+.footer-links .footer {
+  margin-right: 0.834rem;
+  text-decoration: none;
+}
+
+.footer-links .footer:link {
+  color: #4c4c57;
+}
+
+.footer-links .footer:hover {
+  text-decoration: underline;
+}
+
+.footer-links,
+.footer-para .foot {
+  padding-bottom: 0.4167rem;
+}
+
+.privacy {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 1rem;
+  background-color: #6b6c72;
+  color: white;
+  border: none;
+  border-radius: 3%;
+}
