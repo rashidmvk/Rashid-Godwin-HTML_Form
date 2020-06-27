@@ -1,3 +1,13 @@
+/*** Project Meta ***/
+
+/* line - 11 general */
+/* line - 26 header */
+/* line - 72 main content */
+/* line - 221 footer */
+
+
+/** general **/
+
 body {
   background-color: #eceef1;
   position: relative;
@@ -10,6 +20,8 @@ html {
 .font {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/** header **/
 
 header {
   overflow: hidden;
@@ -54,6 +66,8 @@ header {
   margin: 0 0.5rem 0 0;
   padding-top: 0.3rem;
 }
+
+/** main content **/
 
 main {
   padding-bottom: 1.67rem;
@@ -201,6 +215,8 @@ form button {
   color: #0077c5;
   text-decoration: none;
 }
+
+/** footer **/
 
 footer {
   text-align: center;
